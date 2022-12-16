@@ -17,7 +17,7 @@ function NavigationMenu({closeMenu}) {
         <>
             <span className='font-bold text-sm'>Rakamin</span>
             <hr/>
-            <ul className='flex flex-col gap-4 text-green-600'>
+            <ul className='flex flex-col gap-4'>
                 {
                     menus.map((menu, index) => <NavigationMenuList key={index} to={menu.link} name={menu.name} handleClick={closeMenu} />)
                 }

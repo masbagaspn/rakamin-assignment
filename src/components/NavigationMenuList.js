@@ -7,7 +7,7 @@ function NavigationMenuList({to, handleClick, name}) {
       <Link
         to={to}
         onClick={handleClick}
-        className='pb-4 text-sm cursor-pointer hover:font-semibold'
+        className='pb-4 text-sm cursor-pointer text-blue-400 hover:font-semibold'
       >
         {name}
       </Link>
