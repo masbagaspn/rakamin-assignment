@@ -7,7 +7,7 @@ function ProductCard({ product }) {
           <div className='h-1/2 w-full overflow-hidden'>
             <Link to={`/products/${product.id}`}>
               <img 
-                  className='w-full object-none object-center'
+                  className='w-full object-center'
                   src={product.images[0].imageUrl}
                   alt={product.name}
               />
